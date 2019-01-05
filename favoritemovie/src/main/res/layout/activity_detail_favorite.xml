@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    tools:context=".DetailFavorite">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:src="@drawable/image_icon"
+                android:layout_marginRight="8dp"
+                android:id="@+id/img_Favorit" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/judul_Favorit"
+                android:layout_below="@+id/img_Favorit"
+                android:text="@string/favorit_title"
+                android:textSize="16dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/favorit_description"
+                android:id="@+id/overview_Favorit"
+                android:layout_below="@+id/judul_Favorit"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/date_Favorit"
+                android:text="@string/favorit_date_time"
+                android:layout_below="@+id/overview_Favorit"
+                android:textStyle="bold"/>
+        </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

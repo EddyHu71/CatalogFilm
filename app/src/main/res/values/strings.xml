@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">CatalogApps</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Eddy</string>
+    <string name="nav_header_subtitle">eddyhu71@gmail.com</string>
+    <string name="nav_header_desc">4.0 MADE Projects</string>
+    <string name="action_settings">Pengaturan</string>
+    <string name="action_search">Pencarian</string>
+    <string name="most_popular">Paling Populer</string>
+    <string name="now_playing">Yang Sedang Tayang</string>
+    <string name="up_coming">Yang Akan Datang</string>
+    <string name="top_rated">Yang Paling Direkomendasi</string>
+    <string name="favorite">Favorit</string>
+    <string name="share">Bagi</string>
+    <string name="movie_date">Tanggal Film</string>
+    <string name="movie_title">Judul Film</string>
+    <string name="movie_description">Deskripsi Film</string>
+    <string name="ganti_bahasa">Ganti Bahasa</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>

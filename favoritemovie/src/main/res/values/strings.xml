@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">FavoriteApps</string>
+    <string name="favorit_title">Movie Title</string>
+    <string name="favorit_description">Movie Description</string>
+    <string name="favorit_date_time">Movie Date and Time</string>
+</resources>
